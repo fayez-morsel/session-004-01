@@ -15,12 +15,20 @@ body{
     background-color: #02bfb1;
     margin: 20px;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .footer{
     background-color: #02bfb1;
     margin: 20px;
     height: 50px;
+     display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
 
@@ -34,8 +42,16 @@ main{
     background-color: #6edb6e;
     width: 400px;
     height: 490px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+ 
+.aside>h1{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .article{
     background-color: #fbb04c;
     height: 490px;
