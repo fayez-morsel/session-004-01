@@ -15,12 +15,20 @@ body{
     background-color: #02bfb1;
     margin: 20px;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .footer{
     background-color: #02bfb1;
     margin: 20px;
     height: 50px;
+     display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
 
@@ -34,23 +42,53 @@ main{
     background-color: #6edb6e;
     width: 400px;
     height: 490px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+ 
+.aside>h1{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .article{
     background-color: #fbb04c;
     height: 490px;
     width: 900px;
     margin-right: 20px;
-
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+   
 }
 .div1{
     display: flex;
     justify-content: center;
+    height: 50%;
+    align-content: end;
     
+}
+
+.div2{
+    display: flex;
+    align-content: end;
+    height: 50%;    
 }
 
 .h1{
     background-color: #fcd24a;
+    border-radius: 10px;
+    width: 270px;
     margin: 20px;
+    padding: 75px 80px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.h11{
+   padding-top: 200px;  
+   color: aliceblue;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
