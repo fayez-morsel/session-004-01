@@ -3,3 +3,54 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #c4ebf9;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #02bfb1;
+    margin: 20px;
+    height: 50px;
+}
+
+.footer{
+    background-color: #02bfb1;
+    margin: 20px;
+    height: 50px;
+
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.aside{
+    background-color: #6edb6e;
+    width: 400px;
+    height: 490px;
+}
+
+.article{
+    background-color: #fbb04c;
+    height: 490px;
+    width: 900px;
+    margin-right: 20px;
+
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.h1{
+    background-color: #fcd24a;
+    margin: 20px;
+}
+
