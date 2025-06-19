@@ -41,16 +41,38 @@ main{
     height: 490px;
     width: 900px;
     margin-right: 20px;
-
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+   
 }
 .div1{
     display: flex;
     justify-content: center;
+    height: 50%;
+    align-content: end;
     
+}
+
+.div2{
+    display: flex;
+    align-content: end;
+    height: 50%;    
 }
 
 .h1{
     background-color: #fcd24a;
+    border-radius: 10px;
+    width: 270px;
     margin: 20px;
+    padding: 75px 80px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.h11{
+   padding-top: 200px;  
+   color: aliceblue;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
