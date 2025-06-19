@@ -86,7 +86,13 @@ main{
     margin-left: 20px;
     display: flex;
     flex-direction: column;
-   
+    transition: all 0.6s ease-in;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+article:hover {
+    background: linear-gradient(to right, #f58d06, #fbb04c);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
 }
 .div1{
     display: flex;
